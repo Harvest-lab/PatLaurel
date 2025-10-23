@@ -1,0 +1,17 @@
+.vision-mission{
+    padding: 5rem;
+    background-color: darkblue;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.vision-mission h1{
+    color: #fff;
+}
+
+.plc-vision-mission{
+    width: 70%;
+    margin: 4rem auto;
+    line-height: 3rem;
+    /* padding: 20px; */
+}

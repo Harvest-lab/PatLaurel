@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0"/>
+        <title>Teaching Form</title>
+        <link rel="stylesheet" href="form.css" />
+    </head>
+    <body>
+        <header>
+            <h1>TEACHERS QUIZ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#personal-details">Personal</a></li>
+                    <li><a href="#classroom-questions">Classroom</a></li>
+                    <li><a href="#playground-questions">Playground</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section role="region" aria-labelledby="personal-details">
+                <h2 id="personal-details">Personal Details</h2>
+                <div class="info">
+                    <label for="applicant-name">Name (Surname first):</label>
+                    <input type="text" name="applicant-name" id="applicant-name" />
+                </div>
+                <div class="info">
+                    <label for="applicant-email">Email:</label>
+                    <input type="text" name="applicant-email" id="applicant-email" />
+                </div>
+                <div class="info">
+                    <label for="applicant-dob">DoB:</label>
+                    <input type="text" name="applicant-dob" id="applicant-dob" />
+                </div>
+            </section>
+            <section role="region" aria-labelledby="classroom-questions">
+                <h2 id="classroom-questions">Classroom Questions</h2>
+                <div class="questions">
+                    <label for="applicant-discipline">What is your discipline:</label>
+                    <input type="text" name="applicant-discipline" id="applicant-discipline" />
+                </div>
+                <div class="questions">
+                    <legend for="q1">Have you taught before?</legend>
+                    <ul>
+                        <li>
+                            <label for="q1">
+                                <input type="radio" name="a1" id="q1" value="yes" />
+                                Yes
+                            </label>
+                        </li>
+                        <li>
+                            <label for="q2">
+                                <input type="radio" name="a1" id="q2" value="no" />
+                                No
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="questions">
+                    <label for="former-school">What is the name of your former school:</label>
+                    <input type="text" id="former-school" name="former-school" />
+                </div>
+                <div class="questions">
+                    <legend for="subjects">Which subject(s) have you taught before?</legend>
+                    <ul>
+                        <li><input type="checkbox" name="subjects" id="subjects" /> Chemistry</li>
+                        <li><input type="checkbox" name="subjects" id="subjects" /> Biology</li>
+                        <li><input type="checkbox" name="subjects" id="subjects" /> Physics</li>
+                        <li><input type="checkbox" name="subjects" id="subjects" /> Mathematics</li>
+                        <li><input type="checkbox" name="subjects" id="subjects" /> English</li>
+                        <li><input type="checkbox" name="subjects" id="subjects" /> Computer</li>
+                    </ul>
+                </div>
+                <div class="questions">
+                    <legend for="teach">Choose the subject(s) you'd like to teach</legend>
+                    <ul>
+                        <li><input type="checkbox" name="teach" id="teach" /> Chemistry</li>
+                        <li><input type="checkbox" name="teach" id="teach" /> Biology</li>
+                        <li><input type="checkbox" name="teach" id="teach" /> Physics</li>
+                        <li><input type="checkbox" name="teach" id="teach" /> Mathematics</li>
+                        <li><input type="checkbox" name="teach" id="teach" /> English</li>
+                        <li><input type="checkbox" name="teach" id="teach" /> Computer</li>
+                    </ul>
+                </div>
+            </section>
+            <section role="region" aria-labelledby="playground-questions">
+                <div>
+                    <h2 id="playground-questions">Playground Questions</h2>
+                    <label for="playing">What will you do if a child breaks his/her leg when playing</label>
+                    <textarea id="playing" cols="20" rows="5"></textarea>
+                </div>
+            </section>
+            <button type="submit"><a href="Application Submitted.html">Send</a></button>
+        </main>
+        <footer>
+            <address>
+                You can check us out on <a href="https://patlaurelschools.com">Pat laurel schools</a><br />
+                address: 18 Teslim Street, Progressive Estate, Anibaba-Isashi, Lagos
+            </address>
+        </footer>
+    </body>
+</html>

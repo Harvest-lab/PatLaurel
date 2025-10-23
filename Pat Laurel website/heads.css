@@ -1,0 +1,44 @@
+.plc-heads{
+    padding: 5rem;
+    background-color: darkblue;
+    width: 100%;
+    margin-top: 80px;
+}
+
+/* styling for the heading */
+.plc-heads h1{
+    color: #fff;
+}
+
+.heads-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 80px 9%;
+   gap: 2rem;
+}
+
+.heads{
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.heads img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.heads h3{
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 1.1rem;
+}
+
+.heads p{
+    color: blue;
+    font-size: 12px;
+}

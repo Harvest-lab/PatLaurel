@@ -1,0 +1,17 @@
+.school-song{
+    padding: 5rem;
+    background-color: darkblue;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.school-song h1{
+    color: #fff;
+}
+
+.plc-school-song{
+    width: 70%;
+    margin: 4rem auto;
+    line-height: 3rem;
+    /* padding: 20px; */
+}
